@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/outro.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principal</title>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+
+           
+            <div class="redes"><span class="efeitodigitar">Redes Sociais:</span>
+                 <p class="icons">
+                     <a href="https://www.instagram.com/arte.boltz/" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+                     <a href="https://github.com/BolTzBrasileiro" target="_blank"> <i class="fa-brands fa-github"></i></a>
+                     <a href="https://discord.com/users/414409545541222401" target="_blank"><i class="fa-brands fa-discord"></i> </a>
+                     <a href="https://www.behance.net/boltzpvp" target="_blank"> <i class="fa-brands fa-behance"></i> </a>
+                 </p> 
+            </div>
+      
+
+        </header>
+      
+        <div class="subheader">
+
+            <p><a href="#qmsou"> QuemSou</a></p>
+            <p><a href="#meuprojeto">MeuProjeto</a></p>
+            <p><a href="#contato">Contato</a></p>
+
+        </div>
+      
+        <!-- Conteúdo principal -->
+        <main>
+
+           <div id="qmsou"></div>
+            
+                   
+<section class="imagem">
+     <div class="dividir">
+    
+</div>
+ <div class="dividir">
+  
+    <div class="qmsou">  <img src="imagem/eumesmo.jpg" alt="Igor de OLiveira">
+                   <center> <h4>Quem eu sou?</h4>
+                    <p title= "Olá nicolas, se você ta lendo isso, você é bonito">Meu nome é Igor Oliveira, curso no Senai Roberto Simonsens, no 2° semestre na área de desenvolvimento de sistemas.
+                   Também atuo na área de design digital desde os meus 13 anos. Atualmente, não possuo nenhuma formação nesta área.</p>
+                    </center>
+                    
+                    </div>
+                      </div>
+        </section>
+
+            <!-- Projetos -->
+            <div id="meuprojeto"></div>
+            <section class="projetos" >
+                
+                <h4 >Meus projetos</h4>
+               <center> <p> Todos esses projetos foram feitos em 2° semestre </p> </center>
+                <div class="grid">
+
+                    
+
+                <div class="imagems">
+                    <p>1. Criação de web para análise de cursos, ferramentas utilizadas:</p>
+                    <p>
+                        <i class="fa-solid fa-database"></i> 
+                        <i class="fab fa-php"></i>
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </p> <a href="https://youtu.be/UB5kicjc9gU" target="_blank">
+                        <img src="imagem/curso1.png" width="500"></a> 
+                </div>  
+                <div class="imagems">
+                    <p>2. Criação de web:<br>  Competição de vôlei, acesso para usuario e administrador, ferramentas utilizadas:</p>
+                    <p>
+                        <i class="fa-solid fa-database"></i> 
+                        <i class="fab fa-php"></i>
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </p><a href="https://youtu.be/s8Od2IqV7NY" target="_blank">
+                    
+                        <img src="imagem/compvolei.png">
+                        </a>
+                </div>
+                <div class="imagems">
+ 
+                <div class="imagems">
+                  <p>4. Criação de web:<br> cadastro de peças, ferramentas utilizadas:</p>
+                    
+                    <p>
+                        <i class="fa-solid fa-database"></i> 
+                        <i class="fab fa-php"></i>
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </p>
+                    <a href="https://youtu.be/ZAyP_MW2iwo" target="_blank" alt="Pagina de CRUD">
+                        <img src="imagem/pecas.png" >
+                    </a>   
+                </div>
+
+                  
+            </div> <div class="design">
+                    <a href="https://www.behance.net/boltzpvp" target="_blank"><b>Projeto 2</b> - Portfólio (Design)
+                        <i class="fa-solid fa-link" style="font-size: 16px;"></i>  <i class="fa-brands fa-behance" style="font-size:20px;"></i></a>
+               
+                </div> 
+           
+                <div id="contato"></div>
+            <!-- Área de contato -->
+            <div class="caixa">   
+                <h4 >Contato</h4>
+               <center> <p> Entre em contato via este email: igor.o.reis7@aluno.senai.br </p></center> 
+               <br> <center><p>Ou</p></center>
+            <div class="contato">
+           
+                <form action="acao/enviar_mail.php" method="post"> 
+                      <!-- Utilize "enviar_mail.php para enviar diretamente ao email, ou utilize, "inserir.php" para enviar diretamente ao banco de dados" -->
+
+               
+                <label>Nome:</label><br>
+                <input class="form-control" name="nome" type="text" placeholder="Nome do usuário" required><br>
+
+                <label>Email:</label><br>
+                <input class="form-control" name="email" type="text" placeholder="Email" required><br>
+
+                <label>Mensagem:</label><br>
+                <textarea class="form-control" name="msg" rows="8" placeholder="Mensagem" required></textarea><br>
+
+                <button class="form-control">Enviar</button><br>
+
+            
+               </form>
+            
+            </div></div>
+         </section>
+        </main>
+
+  
+    </div>
+</body>
+</html>
